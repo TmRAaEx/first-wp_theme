@@ -20,7 +20,17 @@
 
         <header id="masthead" class="site-header" role="banner">
 
-            Header
+
+            <?php
+            wp_nav_menu(array(
+                'theme_location' => 'header-menu',
+                'container' => 'nav',
+                'container_class' => 'header-nav',
+                'menu_class' => 'header-menu'
+            ));
+            ?>
+
+
         </header><!-- #masthead -->
 
 
