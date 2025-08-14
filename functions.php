@@ -1,6 +1,6 @@
 <?php
-function hello_world()
+function thanks_for_reading()
 {
-    echo "Hello World!";
+    echo "Thank you for visiting our site!";
 }
 ?>
