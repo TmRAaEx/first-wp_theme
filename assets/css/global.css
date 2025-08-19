@@ -1,0 +1,13 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.site-content {
+  padding: 1.5rem 2rem 1.5rem 2rem;
+}

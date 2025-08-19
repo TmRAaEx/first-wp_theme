@@ -5,32 +5,3 @@ Version: 1.0.0
 Description: Testing theme with mounted volume
 */
 
-/* Menyns container */
-.header-nav {
-  background-color: #333; /* Bakgrundsfärg */
-  padding: 10px 20px;
-}
-
-/* Menyns lista */
-.header-menu {
-  list-style: none; /* Ta bort punkter */
-  margin: 0;
-  padding: 0;
-  display: flex; /* Horisontell meny */
-  gap: 20px; /* Mellanrum mellan länkar */
-}
-
-/* Menyposter */
-.header-menu .menu-item a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 5px 10px;
-  transition: background 0.3s;
-}
-
-/* Hover-effekt */
-.header-menu .menu-item a:hover {
-  background-color: #555;
-  border-radius: 5px;
-}
